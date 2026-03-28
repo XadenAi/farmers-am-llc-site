@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.x",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_FORMSPREE_ID",
+      "description": "Formspree form ID for contact form",
+      "required": true
+    }
+  ]
+}
